@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sentiment Analyzer</title>
+        <div class="analyzer-box">
+            <h2>Sentiment Analyzer</h2>
+        </div>
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+    </head>
+    
+    <body>
+        <div class="box">
+            <form action="{{ url_for('predict') }}" method="post">
+                <label for="sentence">Sentence</label>
+                <input type="text" name="sentence" placeholder="Enter here" required='required'/>
+                <button type="submit">Predict</button>
+            </form>
+            <div class="pred">
+                {{ prediction }}
+            </div>
+        </div>
+    </body>
+</html>
