@@ -1,4 +1,5 @@
 # AI-based-Sentiment-Analysis-of-Movie-Reviews-Application-using-Flask
+### An end-to-end Machine Learning Project
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![MLFrameworks](https://img.shields.io/badge/MLFrameworks-Sklearn/Numpy/Nltk-blue)
 ![Backend](https://img.shields.io/badge/Backend-Flask-red)
