@@ -9,8 +9,9 @@ body {
     background: linear-gradient(#141e30, #243b55);
 }
 .analyzer-box h2 {
-    margin: 0 0 30px;
-    position: absolute;
+    margin: auto;
+    width: 50;
+    position: fixed;
     top: 120px;
     left: 580px;
     padding: 0;

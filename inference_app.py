@@ -92,5 +92,5 @@ def get_sentiment(sent:str, loaded_model=model, vect=vectorizer):
     data_count = vect.transform(movie_review_list)
     pred = loaded_model.predict(data_count)
     if pred == 1:
-        return 'Positive ;)'
-    return 'Negative :('
+        return "Positive :)"
+    return "Negative :("
